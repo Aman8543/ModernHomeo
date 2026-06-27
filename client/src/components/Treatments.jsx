@@ -13,6 +13,8 @@ import stone from "../assets/treatment/stone.png";
 import whitedischarge from "../assets/treatment/whitedischarge.png";
 import whitespot from "../assets/treatment/whitespot.png";
 import woman from "../assets/treatment/woman.png";
+import manshik from "../assets/treatment/manshik.png";
+import others from "../assets/treatment/other.png";
 
 const treatments = [
   {
@@ -65,6 +67,17 @@ const treatments = [
     description: "Mahila swasthya aur hormonal problems ke liye treatment.",
     image: woman,
   },
+  {
+    title: "Manshik",
+    description: "Mansik tanav, chinta aur man se judi samasyaon ke liye homeopathic salah aur ilaaj.",
+    image: manshik,
+  },
+  {
+  title: "Anya Rog",
+  description:
+    "Mirgi, Faalij, Swapn Dosh, Dhaturog, Sheeghrapatan, Napunsakta, Kabj, Liver ki Samasya, Purana Kamar Dard, Sciatica, Asthma, Piliya, Sir Dard, Yaaddasht ki Kamjori aur Neend na aane jaise rogon ka ilaaj.",
+  image: others,
+},
 ];
 
 const Treatments = () => {

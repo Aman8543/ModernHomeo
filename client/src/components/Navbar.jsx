@@ -81,8 +81,9 @@ const Navbar = () => {
 
         {/* Logo */}
         <div className="flex items-center gap-3">
-          <div className="w-12 h-12 rounded-full bg-teal-700 flex items-center justify-center">
-            <Leaf className="text-white" size={24} />
+          <div className="w-15 h-15 rounded-full bg-teal-700 flex items-center justify-center">
+            {/* <Leaf className="text-white" size={24} /> */}
+            <img size={24} src="./logo.png" alt="logo" />
           </div>
 
           <div>
