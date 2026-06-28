@@ -69,13 +69,13 @@ const treatments = [
   },
   {
     title: "Manshik",
-    description: "Mansik tanav, chinta aur man se judi samasyaon ke liye homeopathic salah aur ilaaj.",
+    description: "Mansik tanav, chinta aur man se judi samasyaon ke liye homeopathic ilaaj.",
     image: manshik,
   },
   {
   title: "Anya Rog",
   description:
-    "Mirgi, Faalij, Swapn Dosh, Dhaturog, Sheeghrapatan, Napunsakta, Kabj, Liver ki Samasya, Purana Kamar Dard, Sciatica, Asthma, Piliya, Sir Dard, Yaaddasht ki Kamjori aur Neend na aane jaise rogon ka ilaaj.",
+    "Mirgi, Faalij, Swapn Dosh, Sciatica, Asthma, sabhi prakaar ki ilaaj",
   image: others,
 },
 ];

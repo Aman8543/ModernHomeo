@@ -55,11 +55,11 @@ const Hero = () => {
         </div>
 
         {/* Right */}
-        <div className="flex-1 h-[480px] flex justify-center">
+        <div className="flex-1 h-[480px]  flex justify-center">
           <img
             src={doctorImage}
             alt="Doctor"
-            className="w-[400px] object-cover rounded-[40px] shadow-2xl"
+            className="w-[400px] h-[480px] object-cover rounded-[40px] shadow-2xl"
           />
         </div>
 
