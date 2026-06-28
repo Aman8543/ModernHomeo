@@ -16,68 +16,132 @@ import woman from "../assets/treatment/woman.png";
 import manshik from "../assets/treatment/manshik.png";
 import others from "../assets/treatment/other.png";
 
+// const treatments = [
+//   {
+//     title: "Bawaseer (Piles)",
+//     description: "Bawaseer aur piles ke liye homeopathic ilaaj.",
+//     image: basasir,
+//   },
+//   {
+//     title: "Sugar (Diabetes)",
+//     description: "Diabetes ko control karne ke liye treatment.",
+//     image: diabetes,
+//   },
+//   {
+//     title: "Lakwa (Paralysis)",
+//     description: "Paralysis aur kamjori se judi samasyaon ke liye care.",
+//     image: paralysis,
+//   },
+//   {
+//     title: "Muhase (Acne)",
+//     description: "Pimples aur skin problems ke liye treatment.",
+//     image: acne,
+//   },
+//   {
+//     title: "Gathiya",
+//     description: "Joint pain aur arthritis ke liye ilaaj.",
+//     image: gathiya,
+//   },
+//   {
+//     title: "Safed Daag",
+//     description: "Safed daag aur skin pigmentation ke liye treatment.",
+//     image: whitespot,
+//   },
+//   {
+//     title: "Pathri",
+//     description: "Kidney stone aur pathri ki problem ke liye ilaaj.",
+//     image: stone,
+//   },
+//   {
+//     title: "Safed Pani",
+//     description: "Mahilaon me white discharge ki samasya ke liye care.",
+//     image: whitedischarge,
+//   },
+//   {
+//     title: "Daad Khujli",
+//     description: "Daad, khujli aur skin allergy ke liye treatment.",
+//     image: khujli,
+//   },
+//   {
+//     title: "Mahila Rog",
+//     description: "Mahila swasthya aur hormonal problems ke liye treatment.",
+//     image: woman,
+//   },
+//   {
+//     title: "Manshik",
+//     description: "Mansik tanav, chinta aur man se judi samasyaon ke liye homeopathic ilaaj.",
+//     image: manshik,
+//   },
+//   {
+//   title: "Anya Rog",
+//   description:
+//     "Mirgi, Faalij, Swapn Dosh, Sciatica, Asthma, sabhi prakaar ki ilaaj",
+//   image: others,
+// },
+// ];
+
 const treatments = [
   {
-    title: "Bawaseer (Piles)",
-    description: "Bawaseer aur piles ke liye homeopathic ilaaj.",
+    title: "Piles (बवासीर)",
+    description: "Homeopathic treatment for piles, hemorrhoids, and related discomfort.",
     image: basasir,
   },
   {
-    title: "Sugar (Diabetes)",
-    description: "Diabetes ko control karne ke liye treatment.",
+    title: "Diabetes (मधुमेह)",
+    description: "Effective homeopathic care to help manage diabetes and related symptoms.",
     image: diabetes,
   },
   {
-    title: "Lakwa (Paralysis)",
-    description: "Paralysis aur kamjori se judi samasyaon ke liye care.",
+    title: "Paralysis (लकवा)",
+    description: "Treatment and supportive care for paralysis and weakness-related conditions.",
     image: paralysis,
   },
   {
-    title: "Muhase (Acne)",
-    description: "Pimples aur skin problems ke liye treatment.",
+    title: "Acne (मुंहासे)",
+    description: "Homeopathic treatment for acne, pimples, and other skin concerns.",
     image: acne,
   },
   {
-    title: "Gathiya",
-    description: "Joint pain aur arthritis ke liye ilaaj.",
+    title: "Gout (गठिया)",
+    description: "Care and treatment for joint pain, arthritis, and stiffness.",
     image: gathiya,
   },
   {
-    title: "Safed Daag",
-    description: "Safed daag aur skin pigmentation ke liye treatment.",
+    title: "Vitiligo (सफेद दाग)",
+    description: "Treatment for vitiligo, white patches, and skin pigmentation disorders.",
     image: whitespot,
   },
   {
-    title: "Pathri",
-    description: "Kidney stone aur pathri ki problem ke liye ilaaj.",
+    title: "Kidney Stones (पथरी)",
+    description: "Homeopathic care for kidney stones and urinary tract issues.",
     image: stone,
   },
   {
-    title: "Safed Pani",
-    description: "Mahilaon me white discharge ki samasya ke liye care.",
+    title: "White Discharge (सफेद पानी)",
+    description: "Treatment for leucorrhoea and women's health-related concerns.",
     image: whitedischarge,
   },
   {
-    title: "Daad Khujli",
-    description: "Daad, khujli aur skin allergy ke liye treatment.",
+    title: "Ringworm & Itching (दाद-खुजली)",
+    description: "Treatment for fungal infections, itching, and skin allergies.",
     image: khujli,
   },
   {
-    title: "Mahila Rog",
-    description: "Mahila swasthya aur hormonal problems ke liye treatment.",
+    title: "Women's Health (महिला रोग)",
+    description: "Comprehensive care for women's health and hormonal disorders.",
     image: woman,
   },
   {
-    title: "Manshik",
-    description: "Mansik tanav, chinta aur man se judi samasyaon ke liye homeopathic ilaaj.",
+    title: "Mental Health (मानसिक रोग)",
+    description: "Homeopathic treatment for stress, anxiety, and mental health concerns.",
     image: manshik,
   },
   {
-  title: "Anya Rog",
-  description:
-    "Mirgi, Faalij, Swapn Dosh, Sciatica, Asthma, sabhi prakaar ki ilaaj",
-  image: others,
-},
+    title: "Other Diseases (अन्य रोग)",
+    description:
+      "Treatment for epilepsy, paralysis, nightfall, sciatica, asthma, and various chronic diseases.",
+    image: others,
+  },
 ];
 
 const Treatments = () => {
