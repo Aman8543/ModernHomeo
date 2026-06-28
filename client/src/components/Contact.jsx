@@ -96,18 +96,56 @@ return ( <section
 
       </div>
 
-      {/* Google Map */}
-      {/* <div className="rounded-[32px] overflow-hidden shadow-lg min-h-[500px]">
-        <iframe
-          title="clinic-location"
-          src="https://www.google.com/maps/embed?pb="
-          width="100%"
-          height="100%"
-          style={{ border: 0 }}
-          allowFullScreen=""
-          loading="lazy"
-        />
-      </div> */}
+
+      {/* <div className="rounded-[32px] overflow-hidden shadow-lg">
+  <iframe
+    title="clinic-location"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3539.1170948930426!2d82.7922267!3d27.496733600000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39971b004260eaf1%3A0xae70a895edb6c0b!2sMordern%20homeo%20%26%20healthcare!5e0!3m2!1sen!2sin!4v1782645494699!5m2!1sen!2sin"
+    width="100%"
+    height="500"
+    style={{ border: 0 }}
+    loading="lazy"
+    allowFullScreen
+  />
+
+  <a
+    href="https://maps.app.goo.gl/kyZqw8VaMU3hyqTS7?g_st=awb"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="block text-center bg-blue-600 text-white py-3 font-semibold"
+  >
+    Open in Google Maps
+  </a>
+</div> */}
+
+
+
+
+<div className="rounded-[32px] overflow-hidden shadow-lg">
+  <a
+    href="https://maps.app.goo.gl/kyZqw8VaMU3hyqTS7?g_st=awb"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <iframe
+      title="clinic-location"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3539.1170948930426!2d82.7922267!3d27.496733600000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39971b004260eaf1%3A0xae70a895edb6c0b!2sMordern%20homeo%20%26%20healthcare!5e0!3m2!1sen!2sin!4v1782645494699!5m2!1sen!2sin"
+      width="100%"
+      height="500"
+      style={{ border: 0, pointerEvents: "none" }}
+      loading="lazy"
+    />
+
+    <a
+    href="https://maps.app.goo.gl/kyZqw8VaMU3hyqTS7?g_st=awb"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="block text-center bg-blue-600 text-white py-3 font-semibold"
+  >
+    Open in Google Maps
+  </a>
+  </a>
+</div>
 
     </div>
   </div>
@@ -118,3 +156,4 @@ return ( <section
 };
 
 export default Contact;
+
